@@ -2,7 +2,7 @@
 
 _by Jesse Frausto // July 7th, 2020_
 
-In this project, I am tasked to refactor an existing web page to make it meet user accesibility standards. Code refactoring refers to simplifying and restructuring code, without changing its behavior. In order to make this website more accesible, I utuilize semantic html elements to replace ambiguous `<div>` elements that behave similarly, among other criteria. Our **user story** here regards a marketing agency and their website.
+In this project, I am tasked to refactor an existing web page to make it meet user accessibility standards. In order to simplify and restructure the source code without changing its behavior, I replace `<div>` elements with _semantic_ elements to increase accessibility simultaneously. Our **user story** here regards a marketing agency and their website.
 
 ```
 AS A marketing agency
@@ -29,16 +29,14 @@ THEN I find a concise, descriptive title
 
 ## Restructuring for Accesibility
 
----
-
-Throughout the source code you can find examples of code refactoring such as:
+Throughout the source code you can find examples of code refactoring, such as:
 
 - `<div class="header">` turning into the semantic `<header>` element.
 - `<div class="content">` turning into the more logical `<main>` element.
 - `<figure>` elements wrapping around `<img>` tags.
 - `<div class ="benefits">` replaced by `<aside class="benefits">`
 
-The CSS was altered in a way to make the styling apply in the same way before refactoring. For example, `.header` class selector was replaced with `header` element selector, and in each of its descendant stylings. All of this is done to increase readability for humans _and_ screen readers. Screen readers use semantic elements to 'hook' onto sections of a web page, and the code becomes easier to read for people. In addition, the semantic tags make the logical structure more apparent and easily navigable. For example, in this client's website the header and navigation bar were on the same line:
+The CSS was altered in a way to make the styling apply in the same way before refactoring. For example, `.header` class selectors were replaced with `header` element selectors and in each of its descendant's stylings. All of this is done to increase readability for humans _and_ screen readers. Screen readers use semantic elements to 'hook' onto sections of a web page, and the code becomes easier to read for people. In addition, the semantic tags make the logical structure more apparent and easily navigable. For example, in this client's website the header and navigation bar were on the same line with `<div>` wrappers and replaced with:
 
 ```html
 <header>
