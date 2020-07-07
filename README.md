@@ -27,7 +27,7 @@ THEN I find a concise, descriptive title
 
 ```
 
-## Restructuring for Accesibility
+## Modifying for Accessibility
 
 Throughout the source code you can find examples of code refactoring, such as:
 
