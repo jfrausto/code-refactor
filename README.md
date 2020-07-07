@@ -2,7 +2,7 @@
 
 _by Jesse Frausto // July 7th, 2020_
 
-In this project, I am tasked to refactor an existing web page to make it meet user accessibility standards. In order to simplify and restructure the source code without changing its behavior, I replace `<div>` elements with _semantic_ elements to increase accessibility simultaneously. Our **user story** here regards a marketing agency and their website.
+In this project, I am tasked to refactor an existing web page to make it meet user accessibility requirements. In order to simplify and restructure the source code without changing its behavior, I replace `<div>` elements with _semantic_ elements to increase accessibility simultaneously, among other changes described below. Our **user story** here regards a marketing agency and their website.
 
 ```
 AS A marketing agency
@@ -10,7 +10,7 @@ I WANT a codebase that follows accessibility standards
 SO THAT our own site is optimized for search engines
 ```
 
-To have a codebase meet accesibility standards we must meet these acceptance criteria:
+To have a code base meet accessibility standards we must meet these acceptance criteria:
 
 ```
 GIVEN a webpage meets accessibility standards
