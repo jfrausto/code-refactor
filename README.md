@@ -48,6 +48,6 @@ The CSS was altered in a way to make the styling apply in the same way before re
 
 To further meet standards for heading attriubutes, I replaced heading elements in sequetial order from top to bottom. That is to say, at the `<header>` is where you would find the `<h1>` tag. In the middle of the page in each of the `<main>` and `<aside>` sections you will find the `<h2>` tag. And logically at the bottom in the `<footer>` you will find the smallest `<h3>` tag.
 
-Images were also refactored for accesibily. Each `<img>` tag was wrapped inside a `<figure>` element and appended an `alt` attribute describing the image.
+Images were also refactored for accessibility. Each `<img>` tag was wrapped inside a `<figure>` element and appended an `alt` attribute describing the image.
 
 Lastly, a concise, descriptive title was added to the `<title>` element.
