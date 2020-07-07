@@ -46,8 +46,7 @@ The CSS was altered in a way to make the styling apply in the same way before re
 </header>
 ```
 
-To further meet standards for heading attriubutes, I replaced heading elements in sequetial order from top to bottom. That is to say, at the `<header>` is where you would find the `<h1>` tag. In the middle of the page in each of the `<main>` and `<aside>` sections you will find the `<h2>` tag. And logically at the bottom in the `<footer>` you will find the smallest `<h3>` tag.
-
+To further meet standards for heading attriubutes, I replaced heading elements in sequetial order from top to bottom. That is to say, at the `<header>` is where you would find the `<h1>` tag. In the middle of the page in each of the `<main>` and `<aside>` sections you will find the `<h2>` tag. And logically at the bottom in the `<footer>` you will find the smallest `<h3>` tag. Of course, at the top in the `<title>` element you will find a brief, descriptive website title.
 Images were also refactored for accessibility. Each `<img>` tag was wrapped inside a `<figure>` element and appended an `alt` attribute describing the image.
 
-Lastly, a concise, descriptive title was added to the `<title>` element.
+Lastly, a `reset.css` file was implemented just before our main `style.css` stylesheet for good browser compatibility practice.
